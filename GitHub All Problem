@@ -1,1 +1,20 @@
-Hello I'm Mozammel Hosen 
+                                                    Hello I'm Mozammel Hosen 
+
+
+
+### GitHub First Time Depoly
+
+   1. git init
+   2. git add .
+   3. git commit -m"first comment"
+   4. git branch -M main
+   5. git remote add origin https://github.com/MozammelHosen/
+   6. git push -u origin main
+   
+  
+### GitHub push Commit
+
+   1. git init
+   2. git add .
+   3. git commit -m"first commit"
+   4. git push
