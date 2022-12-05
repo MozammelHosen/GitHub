@@ -4,7 +4,7 @@
 
 
 
-### GitHub First Time Depoly
+*** GitHub First Time Depoly ***
 
    1. git init
    2. git add .
@@ -14,7 +14,7 @@
    6. git push -u origin main
    
   
-### GitHub push Commit
+*** GitHub push Commit ***
 
    1. git init
    2. git add .
