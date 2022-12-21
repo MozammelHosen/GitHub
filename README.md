@@ -37,9 +37,10 @@ All Delete Data Back
   git reset --hard HEAD^
 ```
 
-# Github Delete Repos
 
-All Data Delete
+# Github Delete repository Next Time Same Projects New Github Depoly
+
+## New Projects Depoly
 
 ```bash
 PS D:\projects\jarasoftwer> git init
@@ -57,4 +58,3 @@ error: remote origin already exists.
 git remote add origin https://github.com/MozammelHosen/jarasoftwerr.git
 git push -u origin main
 ```
-
