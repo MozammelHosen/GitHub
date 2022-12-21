@@ -36,5 +36,25 @@ All Delete Data Back
 ```bash
   git reset --hard HEAD^
 ```
-    
+
+# Github Delete Repos
+
+All Data Delete
+
+```bash
+PS D:\projects\jarasoftwer> git init
+Reinitialized existing Git repository in D:/projects/jarasoftwer/.git/
+PS D:\projects\jarasoftwer> git add .
+PS D:\projects\jarasoftwer> git commit -m"done"
+On branch main
+nothing to commit, working tree clean
+PS D:\projects\jarasoftwer> git branch -M main
+PS D:\projects\jarasoftwer> git remote add origin https://github.com/MozammelHosen/jarasoftwerr.git
+error: remote origin already exists.  
+```
+## Solve This Problem
+```bash 
+git remote add origin https://github.com/MozammelHosen/jarasoftwerr.git
+git push -u origin main
+```
 
