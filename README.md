@@ -22,4 +22,19 @@
    4. git push -u origin main
 ```
 
+# Github All Data Delete
+
+All Data Delete
+
+```bash
+  git rm -rf .  
+```
+# Github All Delete Back
+
+All Delete Data Back
+
+```bash
+  git reset --hard HEAD^
+```
+    
 
