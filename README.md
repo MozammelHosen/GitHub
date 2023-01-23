@@ -58,3 +58,9 @@ error: remote origin already exists.
 git remote add origin https://github.com/MozammelHosen/jarasoftwerr.git
 git push -u origin main
 ```
+
+# Github theke gitignore delete
+```bash
+ git rm -r --cached .
+```
+
