@@ -64,3 +64,25 @@ git push -u origin main
  git rm -r --cached .
 ```
 
+# Github Add . Problem
+```bash
+ MdMoz@Mozammel-Hosen MINGW64 /d/projects/Jarasoft-IT
+$ git add .
+fatal: detected dubious ownership in repository at 'D:/projects/Jarasoft-IT'
+'D:/projects/Jarasoft-IT' is owned by:
+        'S-1-5-21-2720859303-2455462104-2590388103-1001'
+but the current user is:
+        'S-1-5-21-1499704775-760559341-4143625554-1001'
+To add an exception for this directory, call:
+ git config --global --add safe.directory D:/projects/Jarasoft-IT
+
+
+```
+
+## Solve This Problem
+```bash
+git config --global --add safe.directory "*"
+```
+
+
+
